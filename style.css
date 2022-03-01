@@ -1,0 +1,849 @@
+@charset "UTF-8";
+@charset "UTF-8";
+
+
+pre{ 
+font-size: 23px;
+font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+
+}
+.warning{
+	text-align: center;
+	font-size: 19px;
+	font-family: Times, 'Times New Roman', 'serif';
+	color: darkred;
+}
+.warning2{
+	text-align:center;
+	padding-top: 490px;
+	font-size: 19px;
+	font-family: Times, 'Times New Roman', 'serif';
+	color: darkred;
+}
+.conversation{
+	font-size: 20;
+	background-color: #FFE4ED;
+	margin-top: auto;
+	padding-top: auto;
+}
+
+.conversationtwo{
+	font-size: 20;
+	background-color: #000000;
+	color: white;
+	margin-top: auto;
+	padding-top: auto;
+}
+
+.backgroundwordsdark{
+	background-color: #676767;
+}
+
+a:visited {
+  color: #595959;
+}
+
+/*hoverimage*/
+
+ .figure {
+        position: relative;
+       display: block;
+  margin-right: auto;
+left:420px;
+	width: 50%;
+	 
+    }
+    .figure img.image-hover {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      object-fit: contain;
+      opacity: 0;
+      transition: opacity .2s;
+    }
+    .figure:hover img.image-hover {
+      opacity: 1;
+    }
+
+/* project 1 */
+h1{
+	text-align: center;
+	font-size: 46px;
+	font-family: Times, "Times New Roman", "serif";
+	margin-bottom: -6px;
+
+
+}
+
+.lighttext{
+	text-align: center;
+	font-size: 45px;
+	  position: absolute;
+  top: 35px;
+	font-family: serif;
+  left: 530px;
+}
+
+:root {
+  cursorX: 50vw;
+  cursorY: 50vh;
+}
+:root:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  pointer-events: none;
+  background: radial-gradient(
+    circle 13vmax at var(--cursorX) var(--cursorY),
+    rgba(0,0,0,0) 0%,
+    rgba(0,0,0,.5) 80%,
+    rgba(0,0,0,.95) 100%
+  )
+}
+/*index*/
+.imagefill{
+	width: 100%;
+	height: 100%;
+/*	background-size: cover;*/
+	 position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.top-middle {
+  position: absolute;
+  top: 35px;
+  left: 700px;
+	font-size: 18px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+}
+
+.top-button {
+	position:relative;
+  top: 30px;
+  left: 100px;
+	font-size: 15px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+}
+
+.top-button2 {
+	position:relative;
+  top: 30px;
+  left: 40px;
+	font-size: 15px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+}
+
+.imagefilltwo{
+  top: 0; 
+  left: 0; 
+	margin-bottom: -5px;
+
+
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.noborder{
+		border: 0px;
+	padding:0px;
+}
+
+
+.typewritertext{
+	  position: absolute;
+  top: 98%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	width: 370px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 15px;
+}
+
+.buttontype{
+	position: absolute;
+  top: 307%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+}
+
+/*RABBIT HOLE*/
+.blackbackground{
+	background-color: #000000;
+}
+.typewriterbackground{
+	background-color: #FDECDA;
+}
+.typewriterbackgrounddark{
+	background-color: #172D57;
+}
+
+.imagerabbit{
+		display: block;
+  margin-left: auto;
+  margin-right: auto;
+	align-content: center;
+
+}
+
+.girlfalling{
+ position:fixed;
+ top:180px;
+	display:block;
+margin-left: 580px;
+  margin-right: 120px;
+ z-index: 1;
+ width:auto;
+ height:auto;
+ repeat: repeat-x; 
+}
+
+
+/*dontfeelgood*/
+.dontfeel{
+	background-color: black;
+	color: white;
+	font-size: 220px;
+	text-align: center;
+}
+/*
+.dontfeel:hover {
+  color: red;
+}
+*/
+a.ex1:hover, a.ex1:active {
+	color: red;
+}
+a.ex2:hover, a.ex2:active {
+	color: #FFFEB1;
+}
+
+.feelgood{
+	background-color: #FFB4D0;
+	color: white;
+	font-size: 150px;
+	text-align: center;
+}
+
+
+/*you escaped*/
+.escapebtn{
+	 position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #000000;
+  color: white;
+font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px
+}
+
+
+.container {
+  height: 200px;
+  position: relative;
+}
+
+
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.centers {
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+   
+.btn-group button {
+  background-color: #7168A0;
+  border: 1px solid #0B020B;
+  color: white; /* White text */
+  padding: 20px 80px; /* Some padding */
+  width: 50%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+}
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #311D46;
+}
+
+/* escape tunnel*/
+.containers .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #050505;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+}
+/* occipital */
+body{
+	margin: 0;
+}
+.gradient {
+	background: linear-gradient(-65deg,#F2A2C8,#F2C9E0,#79BAF2,#C4F2EA,#F2DAD8,#DEB1D2,#A599C1,#8F91B7);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: none;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.gradientdark {
+	background: linear-gradient(-65deg,#0D0D0D,#262626,#404040,#737373);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+.backbutton{
+	top: 500%;
+	left: 50%;
+	display: block;
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+	
+/*	tunnel*/
+
+/*memory*/
+#output {
+	
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	text-align: center;
+	
+}
+	
+	
+
+
+
+
+/*iphone*/
+
+.background{
+	
+	background-color: #A1D4AC;
+}
+.backgrounddark{
+	
+	background-color: #282828;
+}
+
+	
+.images{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.back{
+	position:absolute;
+    width:100%;
+    bottom:5px;
+    text-align:center;
+}
+
+.right{
+	margin-left: auto;
+ }
+
+.figure {
+        position: relative;
+        width: 360px; /* can be omitted for a regular non-lazy image */
+        max-width: 100%;
+    }
+    .figure img.image-hover {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      object-fit: contain;
+      opacity: 0;
+      transition: opacity .2s;
+    }
+    .figure:hover img.image-hover {
+      opacity: 1;
+    }
+
+.centertext{
+	text-align: center;
+	font-size: 25px;
+	font-family: "eb-garamond";
+	padding: 70px 0;
+	display: block; 
+}
+
+.frontaltext{
+	margin: 0;
+  position: absolute;
+  top: 51%;
+  left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.frontaltextdark{
+	margin: 0;
+  position: absolute;
+  top: 52.5%;
+  left: 45.5%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.temporaltext{
+	margin: 0;
+  position: absolute;
+  top: 49.5%;
+  left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.temporaltextdark{
+	margin: 0;
+  position: absolute;
+  top: 51%;
+  left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.occipitaltext{
+	margin: 0;
+  position: absolute;
+  top: 46.5%;
+  left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.occipitaltextdark{
+	margin: 0;
+  position: absolute;
+  top: 47%;
+  left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.parietaltext{
+	margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.parietaltextdark{
+	margin: 0;
+  position: absolute;
+  top: 48.5%;
+  left: 45%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.backgroundlight{
+	background-color: #FFF1C7;
+	height: 822px;
+    width: 100%;
+}
+
+.label1light:after{
+    content:'1. Wake Up';
+}
+.label1light:hover:after{
+    content:'You wake up at 7:00am and make your bed.';
+			font-weight: bold;
+
+}
+.label2light:after{
+    content:'2. Get ready and make breakfast';
+}
+.label2light:hover:after{
+    content:'You brush your teeth, wash your face, and make eggs, toast, and fruit for breakfast.';
+			font-weight: bold;
+
+}
+.label3light:after{
+    content:'3. Get dressed for class';
+}
+.label3light:hover:after{
+    content:'You get changed and put on clothes that make you feel comfortable and confident.';
+			font-weight: bold;
+
+}
+.label4light:after{
+    content:'4. Leave for class';
+}
+.label4light:hover:after{
+    content:'You leave for class and get there on time, excited to learn.';
+			font-weight: bold;
+
+}
+.label5light:after{
+    content:'5. Go home and take time to relax';
+}
+.label5light:hover:after{
+    content:'You put on a good show, do some yoga, and catch up on your favorite hobbies.';
+			font-weight: bold;
+
+}
+.label6light:after{
+    content:'6. Go to the gym';
+}
+.label6light:hover:after{
+    content:'You get changed for the gym and listen to your favorite playlist on the drive over.';
+			font-weight: bold;
+
+}
+.label7light:after{
+    content:'7. Go back home';
+}
+.label7light:hover:after{
+    content:'You go back home and shower then get ready to make lunch.';
+			font-weight: bold;
+
+}
+.label8light:after{
+    content:'8. Eat lunch';
+}
+.label8light:hover:after{
+    content:'You make grilled cheese and tomato soup and eat lunch while watching a show.';
+			font-weight: bold;
+
+}
+.label9light:after{
+    content:'9. Do some homework';
+}
+.label9light:hover:after{
+    content:'You put on some lofi and do your homework for the day.';
+			font-weight: bold;
+
+}
+.label10light:after{
+    content:'10. Hang out with Jessica and Connor';
+}
+.label10light:hover:after{
+    content:'You go over Jessica\0027s and decide you guys want to watch a movie. You put on a scary movie since you know Connor gets scared easily.';
+			font-weight: bold;
+
+}
+.label11light:after{
+    content:'11. Go home and make dinner';
+}
+.label11light:hover:after{
+    content:'You make a quick dinner and hang out with your roommate for a little.';
+			font-weight: bold;
+
+}
+.label12light:after{
+    content:'12. Get ready for bed';
+}
+.label12light:hover:after{
+    content:'You put on pajamas, wash your face, brush your teeth, and get ready to go to sleep.';
+			font-weight: bold;
+
+}
+.label13light:after{
+    content:'13. Go to sleep';
+}
+.label13light:hover:after{
+    content:'You shut your eyes and fall asleep quickly and soundly.';
+			font-weight: bold;
+
+}
+
+
+/*dark*/
+
+.label1dark:after{
+    content:'1. Wake Up';
+	
+}
+.label1dark:hover:after{
+    content:'You hit snooze over, and over, and over, and over again.';
+		font-weight: bold;
+
+}
+.label2dark:after{
+    content:'2. Get ready and make breakfast';
+}
+.label2dark:hover:after{
+    content:'You don\0027t have the energy to get ready or eat so you grab some coffee instead.';
+		font-weight: bold;
+}
+.label3dark:after{
+    content:'3. Get dressed for class';	
+}
+.label3dark:hover:after{
+    content:'You keep on the same sweatpants you slept in and throw on a sweatshirt...good enough.';
+	font-weight: bold;
+}
+.label4dark:after{
+    content:'4. Leave for class';
+}
+.label4dark:hover:after{
+    content:'You get ready to leave for class when a wave of anxiety hits you and you decide class can wait another day.';
+	font-weight: bold;
+}
+.label5dark:after{
+    content:'5. Go home and take time to relax';
+}
+.label5dark:hover:after{
+    content:'Instead of going to class you decide to take a three hour nap to ease your anxiety.';
+	font-weight: bold;
+}
+.label6dark:after{
+    content:'6. Go to the gym';
+}
+.label6dark:hover:after{
+    content:'Getting up sounds like too much effort so you skip the gym. It hasn\0027t been giving you results anyways. You still feel insecure and lost.';
+	font-weight: bold;
+}
+.label7dark:after{
+    content:'7. Go back home';
+}
+.label7dark:hover:after{
+    content:'You never left.';
+	font-weight: bold;
+}
+.label8dark:after{
+    content:'8. Eat lunch';
+}
+.label8dark:hover:after{
+    content:'You order in food. You haven\0027t gotten groceries in months and don\0027t plan on starting today.';
+	font-weight: bold;
+}
+.label9dark:after{
+    content:'9. Do some homework';
+}
+.label9dark:hover:after{
+    content:'You\0027ve been falling behind in your classes for a little while now. Your parents say you need to get your grades up, but what\0027s the point?';
+	font-weight: bold;
+}
+.label10dark:after{
+    content:'10. Hang out with Jessica and Connor';
+}
+.label10dark:hover:after{
+    content:'They\0027ve invited you to hang out a lot in the past few weeks but you always said no. You\0027ve never really felt up to going...you love your friends but right now you just need to be alone. You hope they understand when you decline again.';
+	font-weight: bold;
+}
+.label11dark:after{
+    content:'11. Go home and make dinner';
+}
+.label11dark:hover:after{
+    content:'You never left. You wonder if your friends still like you. They probably don\0027t.....they probably don\0027t.....you\0027re not hungry anymore.';
+	font-weight: bold;
+}
+.label12dark:after{
+    content:'12. Get ready for bed';
+}
+.label12dark:hover:after{
+    content:'You\0027re stomach rumbles and you try and eat something light. You go back into bed and put on your comfort show...it always makes you feel better.';
+	font-weight: bold;
+}
+.label13dark:after{
+    content:'13. Go to sleep';
+}
+.label13dark:hover:after{
+    content:'You shut your eyes, but you never fall asleep...your thoughts haunt you...they keep you up...you\0027re all alone...you\0027re all alone...YOU\0027RE ALL ALONE....YOU\0027RE ALL ALONE.';
+	font-weight: bold;
+}
+
+
+/*hearing*/
+
+#laptop {
+  background:url(images/computer.png);
+  width:1260px;
+  height:756px;
+  background-size:contain;
+  background-repeat:no-repeat;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	
+}
+iframe {
+  position: absolute;
+    top: 62px;
+    left: 261px;
+    width: 920px;
+    height: 585px;
+}
+
+.myDiv{
+    background:#ADEEFF;
+    height: 822px;
+    width: 100%;
+}
+
+.myDiv2{
+    background:#1D1D1D;
+    height: 822px;
+    width: 100%;
+}
+
+
+/*paindark*/
+
+.bodypain {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+    margin: 0;
+    background-color: #383838;
+	
+}
+
+.bodynopain {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100vh;
+    margin: 0;
+    background-color: #FF92B6;
+	
+}
+
+.bodypaintext{
+	color: white;
+	text-align: justify;
+	font-size: 35px;
+	padding: 1.4px;
+	margin:1.4px;
+}
+
+.bodynopaintext{
+	color: white;
+	text-align: justify;
+	font-size: 34px;
+	padding: 1.4px;
+	margin:1.4px;
+}
+
+/*
+.backgroundpink{
+	background-color: #FFCFEF;
+	margin: auto;
+}
+*/
+  
+.heart {
+    position: fixed;
+    height: 150px;
+    width:auto;
+    /* Animation */
+    transform: rotate(-45deg) scale(1);
+    animation: pulse 1.6s linear infinite;
+}
+  
+  
+.heart::after {
+    /* background:blue; */
+    background:inherit;
+    content:'';
+    position:absolute;
+    /* top: -100px;*/
+    top: -50%; /* Inherit properties of parent */
+    /* left: -100px; */
+    left:0;
+    height: 100px;
+    width:100px;
+}
+.heart::before {
+    background:inherit; 
+    content:'';
+    position:absolute;
+    top:0; 
+    right:-50%; 
+    height: 100px;
+    width:100px;
+}
+  
+@keyframes pulse{
+    0% {
+        transform: rotate(0deg) scale(4);
+        opacity: 1;
+    }/*
+    10% {
+        transform: rotate(-45deg) scale(1.3);
+    }
+    20% {
+        transform: rotate(-45deg) scale(0.9);
+    }
+    30% {
+        transform: rotate(-45deg) scale(1.2);
+    }
+    40% {
+        transform: rotate(-45deg) scale(0.9);
+    }*/
+    50% {
+        transform: rotate(0deg) scale(4.7);
+        opacity: 1;
+    }/*
+    60% {
+        transform: rotate(-45deg) scale(0.95);
+    }
+    70% {
+        transform: rotate(-45deg) scale(1);
+    } */
+    100% {
+        transform: rotate(0deg) scale(4);
+        opacity: 1;
+    }
+}
+
+
+
+
+

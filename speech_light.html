@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<script>
+	var i = 0;
+var txt = 'When your world moves too fast and you lose yourself in the chaos. Introduce yourself to each color of the sunset. Reacquaint yourself with the earth beneath your feet. Thank the air that surrounds you with every breath you take. Find yourself in the appreciation of life. -Christy Ann Martine';
+	var arraySplitByPeriod = txt.split(".")
+var speed = 50;
+
+function typeWriter() {
+
+  if (i < txt.length) {
+
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+	
+	</script>
+<meta charset="UTF-8">
+<title>speech_light</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="typewriterbackground">
+	
+	<div class="container">
+
+<img class="images" src="images/typewriter.png" alt=""/>
+            <button class="buttontype" onclick="typeWriter()">write letter</button>
+            <p class="typewritertext" id="demo"></p>
+			     <a style="text-align: center" class="backbutton" href="frontal_light.html">go back</a>
+	</div>
+	
+	
+</body>
+</html>

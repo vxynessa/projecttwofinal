@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+	<script>
+	var i = 0;
+var txt = 'Take this kiss upon the brow! And, in parting from you now, Thus much let me avow — You are not wrong, who deem That my days have been a dream; Yet if hope has flown away In a night, or in a day, In a vision, or in none, Is it therefore the less gone? All that we see or seem Is but a dream within a dream. I stand amid the roar Of a surf-tormented shore, And I hold within my hand Grains of the golden sand — How few! yet how they creep Through my fingers to the deep, While I weep — while I weep! O God! Can I not grasp Them with a tighter clasp? O God! can I not save One from the pitiless wave? Is all that we see or seem But a dream within a dream? - Edgar Allen Poe';
+	var arraySplitByPeriod = txt.split(".")
+var speed = 50;
+
+function typeWriter() {
+
+  if (i < txt.length) {
+
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+	
+	</script>
+<meta charset="UTF-8">
+<title>speech_dark</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="typewriterbackgrounddark">
+	
+	<div class="container">
+
+<img class="images" src="images/typewriter.png" alt=""/>
+            <button class="buttontype" onclick="typeWriter()">write letter</button>
+            <p class="typewritertext" id="demo"></p>
+			     <a style="text-align: center" class="backbutton" href="frontal_dark.html">go back</a>
+	</div>
+	
+	
+</body>
+</html>
